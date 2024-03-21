@@ -30,13 +30,37 @@ twitter_username: digiv3rse
 github_username:  digiv3rse
 
 collection:
-  - documentation
-  - major-concept
-  - sdks
-  - digiv3rse-api
-  - specification
+  documentation:
+    output: true
+    sidebar_label: Documentations
+    
+  major-concept: 
+    output: true
+    sidebar_label: Major Concept
+    
+  sdks:
+    output: true
+    sidebar_label: SDKS
+    
+  digiv3rse-api:
+    output: true
+    sidebar_label: DiGiV3rse API
+    
+  specification:
+    output: true
+    sidebar_label: Specification
+  
 # Build settings
-theme: minima
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+  
+remote_theme: olivier3lanc/Jekyll-LibDoc
 plugins:
   - jekyll-feed
 
