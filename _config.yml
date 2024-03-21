@@ -29,6 +29,12 @@ url: "https://docs.digiv3rse.xyz" # the base hostname & protocol for your site, 
 twitter_username: digiv3rse
 github_username:  digiv3rse
 
+collection:
+  - documentation
+  - major-concept
+  - sdks
+  - digiv3rse-api
+  - specification
 # Build settings
 theme: minima
 plugins:
